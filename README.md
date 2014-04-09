@@ -12,12 +12,12 @@ them directly after installing/updating rvm.
 
 ### Step 1
 
-To use the a recent version of the patchsets, just update rvm:
+To use a recent version of the patchsets, just update rvm:
 
     rvm get head # OR
     rvm get stable
 
-If rvm isn't update to date yet, or you can easily install them from this repository:
+If rvm isn't up to date yet, you can easily install them from this repository:
 
 * clone the repository to some convenient place
 * cd into the top level directory
@@ -137,7 +137,7 @@ All patches are provided without any warranty. Use at your own risk!
 
 * Some of the patches are based on the work of others
 * Some of the the patches are included in ruby enterprise edition
-* The set of integrated patces depend on the ruby version
+* The set of integrated patches depend on the ruby version
 * A modified version of my GC patches have been included in stock ruby
 
 * sigvtalrm patch: http://timetobleed.com/ruby-threading-bugfix-small-fix-goes-a-long-way
